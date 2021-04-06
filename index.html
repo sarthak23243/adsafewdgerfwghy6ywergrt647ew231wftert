@@ -1,0 +1,66 @@
+<html>
+
+  <head>
+
+    <title>Image recognition</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+   <link rel="stylesheet" href="style.css">
+
+  </head>
+
+<body>
+
+<h1 id="h23">Face Recognition App </h1>
+
+<h6>Model is Trained To Identify The Face Emotation ↓</h6>
+<div>
+<label class="btn btn-warning" >Happy</label>
+<br>
+<br>
+<label class="btn btn-warning">Sad</label>
+<br>
+<br>
+<label class="btn btn-warning">Angry</label>
+<br>
+<br>
+<label class="btn btn-warning">Crying</label>
+<br>
+<br>
+</div>
+<center><div id="camera"></div>
+    <br>
+    <br>
+    <div id="imgd"></div>
+    <br>
+    <br>
+    <button onclick="Check()" id="check123" class="btn btn-success">
+        Identify Image NOW
+    </button>
+    <br>
+    <br>
+    <button onclick="takesnapshot()" id="check123" class="btn btn-success">
+
+        Takesnapshot
+
+    </button>
+    <div id="result_object_name"></div>
+    <div id="result_object_accuracy"></div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
+
+

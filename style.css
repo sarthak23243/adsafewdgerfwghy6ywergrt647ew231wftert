@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(blue 0%, red 100%);
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+}
+#h23{
+ font-size: small;
+ 
+}
+label{
+    font-size: 10px;
+    width: 50%;
+    height: 29px;
+}
+#camera{
+    border-style: groove;
+    border-width: 5px;
+    border-color: yellow;
+    width:250px;
+    height: 250px;
+}
+#imgd{
+    border-style: groove;
+    border-width: 5px;
+    border-color: yellow;
+    width:250px;
+    height: 250px;
+}
